@@ -78,8 +78,6 @@ class App extends Component {
         onClick={this.handlePixelsClicked.bind(this)}
         style={{
           position: 'absolute',
-          width: '10000px',
-          height: '10000px'
         }}
       >
         {this.state.pixels.map(pixel =>
